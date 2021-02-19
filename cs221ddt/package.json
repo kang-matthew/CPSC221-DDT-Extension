@@ -1,0 +1,26 @@
+{
+    "name": "cs221ddt",
+    "displayName": "CPSC 221 - Data Driven Templates",
+    "description": "HtDP-style templates for data types and structures used in CPSC 221 @ UBC",
+    "version": "1.0.0",
+    "publisher": "Matt",
+    "repository": {
+        "type": "git",
+        "url": "https://github.students.cs.ubc.ca/matt0410/CPSC-221-DDT-Extension"
+    },
+    "icon": "cs221ddt_logo.png",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "cpp",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

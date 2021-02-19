@@ -1,0 +1,80 @@
+{
+    "Singly LinedList Function Template": {
+        "prefix": "(@template SinglyLinkedList)",
+        "body": [
+            "// (@template SinglyLinkedList)",
+            "$0",
+            "${1:signatureTo} fnForSLL(Node*& head) {",
+            "   if(head == NULL) {(...)}",
+            "   else {...   (head->key);",
+            "               (head->val);",
+            "               fnForSLL(head->next);",
+            "   }",
+            "}",
+        ],
+        "description": "Creates a Singly Linked List template with key, val (remove if unnecessary)"
+    },
+
+    "Doubly LinkedList Function Template": {
+        "prefix": "(@template DoublyLinkedList)",
+        "body": [
+            "// (@template DoublyLinkedList)",
+            "$0",
+            "${1:signatureTo} fnForDLL(Node*& head) {",
+            "   if(head == NULL) {(...)}",
+            "   else {...   (head->key);",
+            "               (head->val);",
+            "               fnForDLL(head->next);",
+            "   }",
+            "}",
+        ],
+        "description": "Creates a Doubly Linked List template with key, val (remove if unnecessary)"
+    },
+
+    "LinkedList Function Template": {
+        "prefix": "(@template LinkedList)",
+        "body": [
+            "// (@template LinkedList)",
+            "$0",
+            "${1:signatureTo} fnForLinkedList(Node*& head) {",
+            "   if(head == NULL) {(...)}",
+            "   else {...   (head->key);",
+            "               (head->val);",
+            "               fnForLinkedList(head->next);",
+            "   }",
+            "}",
+        ],
+        "description": "Creates a Linked List template with key, val (remove if unnecessary)"
+    },
+
+    "2-one-of Template": {
+        "prefix": "(@template 2-one-of)",
+        "body": [
+            "           |                   |                   ",
+            "           |                   |                   ",
+            "----------------------------------------------------",
+            "           |                   |                   ",
+            "           |                   |                   ",
+            "           |                   |                   ",
+            "           |                   |                   ",
+            "           |                   |                   ",
+            "----------------------------------------------------",
+            "           |                   |                   ",
+            "           |                   |                   ",
+            "           |                   |                   ",
+            "           |                   |                   ",
+            "           |                   |                   ",
+            "$0",
+            "$0",
+            "// (@template 2-one-of)",
+            "$0",
+            "${1:signatureTo} fnForTwoOneOf(Node*& head) {",
+            "   if(<<1>>) {...}",
+            "   else if (<<2>>) {...}",
+            "   else if (<<3>>) {...}", 
+            "   else if (<<4>>) {...}",
+            "}",
+        ],
+        "description": "Creates a 2-one-of function template with 4 cases (simplify if necessary)"
+    }
+}
